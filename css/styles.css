@@ -26,12 +26,19 @@
 .logo-part {
   color: #000000;
 }
+.logo-footer {
+  color: #ffffff;
+}
 .list {
   list-style: none;
 }
 .list .link {
   color: var(--accent-color);
 }
+.link {
+  text-decoration: none;
+}
+
 .list .link:hover,
 .list .link:focus .list .link:active {
   color: var(--accent-background);
@@ -72,8 +79,7 @@
 .hero .button:active,
 .hero .button:focus,
 .hero .button:hover {
-  color: var(--accent-background);
-  background-color: #ffffff;
+  background-color: #188ce8;
 }
 .hidden {
   position: absolute;
@@ -84,13 +90,13 @@
 }
 .title {
   color: var(--accent-color);
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 14px;
   line-height: 1.1428;
   text-transform: uppercase;
 }
 .text {
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.7142;
 }
@@ -119,7 +125,7 @@ footer {
 }
 .address {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
+  /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.7142;
   font-style: normal;
@@ -145,13 +151,15 @@ footer {
 }
 .title-portfolio {
   color: var(--accent-color);
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-text {
-  font-weight: 400;
+
+p.portfolio-text {
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.875;
+  color: #757575;
 }
